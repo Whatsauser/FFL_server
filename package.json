@@ -18,23 +18,8 @@
     "type": "git",
     "url": "git://github.com/ariankordi/FFL.js.git"
   },
-  "exports": {
-    ".": "./ffl.js",
-    "./helpers/*": "./helpers/*",
-    "./materials/*": "./materials/*",
-    "./examples/*": "./examples/*",
-    "./ffl-emscripten.cjs": "./ffl-emscripten.cjs"
-  },
   "author": "Arian Kordi",
   "license": "AGPL-3.0-only",
-  "bugs": {
-    "url": "https://github.com/ariankordi/FFL.js/issues"
-  },
-  "homepage": "https://github.com/ariankordi/FFL.js",
-  "peerDependencies": {
-    "@types/three": ">= 0.144.0",
-    "three": ">= 0.144.0"
-  },
   "devDependencies": {
     "@cdklabs/eslint-plugin": "^2.0.2",
     "@eslint-community/eslint-plugin-eslint-comments": "^4.4.1",
@@ -51,5 +36,18 @@
     "rolldown": "^1.0.0-rc.1",
     "tsconfig-paths": "^4.2.0",
     "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "fs": "^0.0.1-security",
+    "gl": "^8.1.6",
+    "jimp": "^1.6.1",
+    "morgan": "^1.11.0",
+    "mp4box": "^2.4.1",
+    "opentype.js": "^2.0.0",
+    "pngjs": "^7.0.0",
+    "sharp": "^0.35.3",
+    "tga": "^1.0.7",
+    "webgpu": "^0.4.0"
   }
 }
