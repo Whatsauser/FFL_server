@@ -16,9 +16,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/ariankordi/FFL.js.git"
+    "url": "git://github.com/Whatsauser/FFL_server/FFL.js.git"
   },
-  "author": "Arian Kordi",
+  "author": "Whatsauser",
   "license": "AGPL-3.0-only",
   "devDependencies": {
     "@cdklabs/eslint-plugin": "^2.0.2",
