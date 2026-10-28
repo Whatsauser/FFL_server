@@ -1,5 +1,5 @@
 ## What is this?
-FFL Rendering server mainly for Samverse 3.
+A Mii rendering server that uses Ariankordi's FFL.js library.
 
 ## Setup
 > [!IMPORTANT]  
